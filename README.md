@@ -1,29 +1,73 @@
-Retail Pricing System
+# Retail Pricing System
 
-    Technology Stack
-        Frontend:
-        Angular 17
+## Overview
+This project is a Retail Pricing Management System developed as part of the Tiger Analytics .NET Case Study.
 
-Backend:
-  .NET Core Web API
-Database:
-  .SQL Server
-Features:
-  .Upload pricing CSV
-  .Search pricing records
-  .Edit pricing records
+The system allows users to:
+- Upload pricing feeds using CSV files
+- Search pricing records
+- Edit and update pricing information
 
-Architecture:
-  3-tier architecture:
-  Angular -> .NET Core -> SQL Server
-  
-How to Run:
-  Backend
-  cd RetailPricingAPI
-  dotnet run
-Frontend:
+---
+
+## Technology Stack
+
+### Frontend
+- Angular 17 (Standalone Components)
+- TypeScript
+- HTML, CSS
+
+### Backend
+- .NET Core Web API (.NET 8)
+- Entity Framework Core
+
+### Database
+- SQL Server Express
+
+---
+
+## Architecture
+
+3-tier architecture:
+
+Angular SPA → .NET Core Web API → SQL Server
+
+---
+
+## Features
+
+- CSV Upload
+- Search Pricing Records
+- Inline Edit and Update
+- REST API Integration
+- SPA User Interface
+
+---
+
+## How to Run
+
+### Backend
+
+```bash
+cd RetailPricingAPI
+dotnet run
+```
+
+### Frontend
+
+```bash
 cd retail-ui
 ng serve
+```
 
-Author
-Tapan Behera
+Open browser:
+
+http://localhost:4200
+
+---
+
+## Author
+
+Name: Tapan Behera  
+Role: .NET Full Stack Developer  
+
